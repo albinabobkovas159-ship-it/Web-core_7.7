@@ -86,7 +86,7 @@ body {
 .modal h2 {
   font-family: Arial, Helvetica, sans-serif;
   color: #625757;
-  text-shadow: #62575776 8px 8px 5px;
+  text-shadow: #62575776 8px 8px 4px;
 }
 
 .modal-backdrop {

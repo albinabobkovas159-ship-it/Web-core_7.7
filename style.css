@@ -1,0 +1,95 @@
+/* Базовые стили */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Контент страницы */
+.content {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.site-header {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.section p {
+  margin: 0 0 16px;
+}
+
+.section code {
+  background: #f0f0f0;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+/* Заголовок секции */
+.section h2 {
+  margin: 0 0 16px;
+  font-size: 20px;
+  color: #555;
+}
+
+/* Создайте стили для модального окна согласно требованиям */
+.modal {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  position: relative;
+  z-index: 2;
+  border: 5px solid rgba(63, 10, 10, 0.753);
+  border-radius: 10px;
+  padding: 20px;
+  background: rgb(190, 187, 182);
+  max-width: 32rem;
+  box-shadow: 1rem 1rem 3rem rgba(45, 4, 4, 0.612);
+}
+
+.modal p,
+.modal h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #625757;
+  text-shadow: #62575776 8px 8px 5px;
+}
+
+.modal-backdrop {
+  position: relative;
+  z-index: 1;
+}
